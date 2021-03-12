@@ -2,7 +2,7 @@
 
 ### Introduction
 
-An image dataset for the facial recognition of western lowland gorillas (*Gorilla gorilla gorilla*).The dataset comprises 5k+~facial bounding box annotations across a troop of 7 gorillas at Bristol Zoo Gardens. The paper which accompanies this dataset was published at [ICPR 2020: Visual obersation & analysis of veterbrate & insect behaviour](https://homepages.inf.ed.ac.uk/rbf/vaib20.html) and can be found [here](https://arxiv.org/pdf/2012.04689.pdf).
+An image dataset for the facial recognition of western lowland gorillas (*Gorilla gorilla gorilla*).The dataset comprises 5k+~facial bounding box annotations across a troop of 7 gorillas at Bristol Zoo Gardens. The paper which accompanies this dataset was published at [ICPR 2020: Visual obersation & analysis of veterbrate & insect behaviour](https://homepages.inf.ed.ac.uk/rbf/vaib20.html) alongside other relevant works). The paper and can be found [here](https://arxiv.org/pdf/2012.04689.pdf) and contains detailed information on the dataset.
 
 ![Image](readme_figures/full_troop.png)
 
@@ -10,7 +10,10 @@ The reported results were produced using the darknet implementation of YOLOv3. T
 
 ### Dataset details and structure
 
-The dataset is stored using Git Large File Storage and this will need to be installed (instructions can be found [here](https://git-lfs.github.com)) before the repository can be cloned (downloading the repository as a zip file won't work, unfortunately). 
+#### Prerequisites
+
+- The dataset is stored using Git Large File Storage and this need to be installed (instructions can be found [here](https://git-lfs.github.com)) before the repository can be cloned (downloading the repository as a zip file won't work, unfortunately). 
+- To reproduce the results the following forked darknet repository will need to be installed <https://github.com/obrookes/darknet>. I have provided the neccessary files to evaluate the network once this has been done. The `darknet_files` directory includes the yolo-obj.cfg, obj.names, obj.data, train.txt, test.txt and .weight files that are needed. The **How to train (to detect your custom objects)** section of the darknet repository will tell you where to put these files. Once the files are in the correct location run `darknet.exe detector map data/obj.data yolo-obj.cfg backup\yolo-obj_best.weights` from the directory where the darknet executable file is located - this will produce the desired mAP calculation. For more details on evaluation refer to the **When should I stop training** section (specifically **subsection 2.2**).             
 
 #### Images, Annotations & Network Weights
 - The `images` directory contains all of the data and is already split into `train` and `test` sets.
@@ -20,7 +23,9 @@ The dataset is stored using Git Large File Storage and this will need to be inst
 - Annotations are text files (`.txt`) and follow the darknet format (AlexeyAB's comment on [this Github issue](https://github.com/AlexeyAB/Yolo_mark/issues/60) is very useful in providing clarification on this).
 - The network weights are `.weight` files (a custom darknet format) and can be found in the `weights` directory
 
-To reproduce the results the following darknet repository will need to be installed <https://github.com/obrookes/darknet>.    
+#### Videos [Coming Soon!]
 
-
-
+### Authors
+- Otto Brookes
+- Tilo Burghardt
+- [Gorilla Game Lab](https://gorillagamelab.com)
