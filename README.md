@@ -1,5 +1,7 @@
 # BristolGorillas2020
 
+Otto Brookes & Tilo Burghardt
+
 ## Introduction
 An image dataset for the facial recognition of western lowland gorillas (*Gorilla gorilla gorilla*). The dataset comprises 5k+~facial bounding box annotations across a troop of 7 gorillas at Bristol Zoo Gardens. 
 
