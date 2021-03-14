@@ -1,7 +1,5 @@
 # BristolGorillas2020
 
-Otto Brookes & Tilo Burghardt
-
 ## Introduction
 An image dataset for the facial recognition of western lowland gorillas (*Gorilla gorilla gorilla*). The dataset comprises 5k+~facial bounding box annotations across a troop of 7 gorillas at Bristol Zoo Gardens. 
 
@@ -14,7 +12,7 @@ The reported results were produced using the darknet implementation of YOLOv3. T
 ### Prerequisites
 
 - The dataset is stored using Git Large File Storage and this need to be installed (instructions can be found [here](https://git-lfs.github.com)) before the repository can be cloned (downloading the repository as a zip file won't work, unfortunately).
-- To reproduce the results the forked [darknet repository](https://github.com/obrookes/darknet) will need to be installed. I have provided the neccessary files to evaluate the network once this has been done. The `darknet_files` directory includes the yolo-obj.cfg, obj.names, obj.data, train.txt, test.txt and .weights files that are needed. The **How to train (to detect your custom objects)** section of the darknet repository will tell you where to put these files. Once the files are in the correct location run `darknet.exe detector map data/obj.data yolo-obj.cfg backup\yolo-obj_best.weights` from the directory where the darknet executable file is located - this will produce the desired mAP calculation. For more details on evaluation refer to the **When should I stop training** section (specifically **subsection 2.2**).             
+- To reproduce the results the forked [darknet repository](https://github.com/obrookes/darknet) will need to be installed. I have provided the neccessary files to evaluate the network once this has been done. The `darknet_files` directory includes the `yolo-obj.cfg`, `obj.names`, `obj.data`, `train.txt`, `test.txt` and `.weights` files that are needed. The **How to train (to detect your custom objects)** section of the darknet repository will tell you where to put these files. Once the files are in the correct location run `darknet.exe detector map data/obj.data yolo-obj.cfg backup\yolo-obj_best.weights` from the directory where the darknet executable file is located - this will produce the desired mAP calculation. For more details on evaluation refer to the **When should I stop training** section (specifically **subsection 2.2**).             
 
 ### Images, Annotations & Network Weights
 
