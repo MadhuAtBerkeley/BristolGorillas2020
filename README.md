@@ -3,7 +3,7 @@
 ## Introduction
 An image dataset for the facial recognition of western lowland gorillas (*Gorilla gorilla gorilla*): the dataset comprises 5k+~facial bounding box annotations across a troop of 7 gorillas at Bristol Zoo Gardens. 
 
-![Image](readme_figures/full_troop.png)
+![Image](figures/full_troop.png)
 
 The reported results were produced using the darknet implementation of YOLOv3. The precise implementation can be found [here](https://github.com/obrookes/darknet). 
 
@@ -44,7 +44,7 @@ This work was presented at the Visual observation and analysis of Vertebrate And
 
 ## Acknowledgements
 
-We would like to thank Stuart Gray, Faye Clark & Peter Bennet of the [Gorilla Game Lab](https://gorillagamelab.com)!. We would also like to thank Bristol Zoo Gardens.
+We would like to thank Stuart Gray, Faye Clark & Peter Bennet of the [Gorilla Game Lab](https://gorillagamelab.com)! We would also like to thank Bristol Zoo Gardens for facilitating this research.
 
 ## Contact
 
