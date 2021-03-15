@@ -1,7 +1,7 @@
 # BristolGorillas2020
 
 ## Introduction
-An image dataset for the facial recognition of western lowland gorillas (*Gorilla gorilla gorilla*). The dataset comprises 5k+~facial bounding box annotations across a troop of 7 gorillas at Bristol Zoo Gardens. 
+An image dataset for the facial recognition of western lowland gorillas (*Gorilla gorilla gorilla*): the dataset comprises 5k+~facial bounding box annotations across a troop of 7 gorillas at Bristol Zoo Gardens. 
 
 ![Image](readme_figures/full_troop.png)
 
@@ -44,4 +44,8 @@ This work was presented at the Visual observation and analysis of Vertebrate And
 
 ## Acknowledgements
 
-We would like to thank the [Gorilla Game Lab](https://gorillagamelab.com). In particular, Peter Bennet, Stuart Gray & Faye. We would also like to thank the Primate division at Bristol Zoo Gardens.
+We would like to thank Stuart Gray, Faye Clark & Peter Bennet of the [Gorilla Game Lab](https://gorillagamelab.com)!. We would also like to thank Bristol Zoo Gardens.
+
+## Contact
+
+If you require any assistance or are interested in this research please do not hesitate to [email me](mailto:dl18206@bristol.ac.uk) or [Tilo Burghardt](mailto:tilo@cs.bris.ac.uk)!
