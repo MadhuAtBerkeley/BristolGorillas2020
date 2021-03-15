@@ -48,4 +48,4 @@ We would like to thank Stuart Gray, Faye Clark & Peter Bennet of the [Gorilla Ga
 
 ## Contact
 
-If you require any assistance or are interested in this research please do not hesitate to [email me](mailto:dl18206@bristol.ac.uk) or [Tilo Burghardt](mailto:tilo@cs.bris.ac.uk)!
+If you require any assistance or are interested in this research, please do not hesitate to [email me](mailto:dl18206@bristol.ac.uk) or [Tilo Burghardt](mailto:tilo@cs.bris.ac.uk).
