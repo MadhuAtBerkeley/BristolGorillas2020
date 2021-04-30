@@ -28,11 +28,19 @@ The reported results were produced using the darknet implementation of YOLOv3. T
 	- `<width>` = width of the bounding box
 	- `<height>` = height of the bounding box
 
- AlexeyAB's comment on [this](https://github.com/AlexeyAB/Yolo_mark/issues/60) Github issue] is very useful in providing clarification on the annotation format.
+ AlexeyAB's comment on [this](https://github.com/AlexeyAB/Yolo_mark/issues/60) Github issue is very useful in providing clarification on the annotation format.
 
 - The network weights are `.weights` files (a custom darknet format) and can be found in the `network_weights/` directory
 
 ### Videos [Coming Soon!]
+
+- The `videos/` directory contains all the videos in the dataset.
+- Each gorilla has a directory (for example, `afia/`, `jock/` or `kala/`) and many subdirectories (for example, `afia/afia-2-2` or `kala/kala-0-4`)
+- The suffix `ie -2-2` of the subdirectories originally related to the video number and the week from which the video footage was gathered, respectively
+- Withn the subdirectory there is the video file of the same name (for example `afia-2-2/` will contain the video `afia-2-2.mp4`) and the annotation file.
+- All video files are MPEG-4 Part 14 `.mp4` 
+- The annotation files are `.txt` and have the **same** format as the image annotations (as described above).
+- The annotation is named after the frame for which an annotation exists (for example `frame186.txt`). That is, the class and bounding box coordinates are **only** for the 186th frame of the video (although it is likely it would still be relevant for the frames immediately either side).  
 
 ## Citation
 
