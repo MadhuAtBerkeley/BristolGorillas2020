@@ -16,8 +16,8 @@ The reported results were produced using the darknet implementation of YOLOv3. T
 
 ### Images, Annotations & Network Weights
 
-- The `images` directory contains all of the data and is already split into `train` and `test` sets.
-- Each of the splits has a subdirectory for each gorilla (for example, `afia`, `jock` or `kala`.
+- The `images/` directory contains all of the data and is already split into `train/` and `test/` sets.
+- Each of the splits has a subdirectory for each gorilla (for example, `afia/`, `jock/` or `kala/`.
 - Each of the gorilla directories contains both images **and** annotations; this is because the darknet framework requires that images and annotations be placed in the same directory at training time.
 - All images are JPEG format (`.jpg`)
 - Annotations are text files (`.txt`)
@@ -28,9 +28,9 @@ The reported results were produced using the darknet implementation of YOLOv3. T
 	- `<width>` = width of the bounding box
 	- `<height>` = height of the bounding box
 
- AlexeyAB's comment on [this Github issue](https://github.com/AlexeyAB/Yolo_mark/issues/60) is very useful in providing clarification on the annotation format.
+ AlexeyAB's comment on [this](https://github.com/AlexeyAB/Yolo_mark/issues/60) Github issue] is very useful in providing clarification on the annotation format.
 
-- The network weights are `.weights` files (a custom darknet format) and can be found in the `network_weights` directory
+- The network weights are `.weights` files (a custom darknet format) and can be found in the `network_weights/` directory
 
 ### Videos [Coming Soon!]
 
