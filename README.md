@@ -61,8 +61,8 @@ This work was presented at the Visual observation and analysis of Vertebrate And
 
 ## Acknowledgements
 
-We would like to thank Stuart Gray, Faye Clark & Peter Bennet of the [Gorilla Game Lab](https://gorillagamelab.com)! We would also like to thank Bristol Zoo Gardens for facilitating this research.
+We would like to acknowledge the contributions of our collaborators for their help in facilitating the technical innovation described in this paper. Specifically, we’d like to thank the other members of the Gorilla Game Lab team, Dr Fay Clark, Dr Katy Burgess, Dr Peter Bennett, and Dr Stuart Gray for their efforts. We would also like to extend our thanks to the staff at Bristol Zoo Gardens, most notably to the keepers, and to Betty Roberts.
 
 ## Contact
 
-If you require any assistance or are interested in this research, please do not hesitate to [email me](mailto:dl18206@bristol.ac.uk) or [Tilo Burghardt](mailto:tilo@cs.bris.ac.uk).
+If you require any assistance or are interested in this research, please do not hesitate to [email me](mailto:dl18206@bristol.ac.uk).
