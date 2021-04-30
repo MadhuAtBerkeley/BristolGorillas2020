@@ -22,11 +22,11 @@ The reported results were produced using the darknet implementation of YOLOv3. T
 - All images are JPEG format (`.jpg`)
 - Annotations are text files (`.txt`)
 - Annotation format: `<class> <x> <y> <width> <height>`
-- `<class>` = integer representing the object class
-- `<x>` = x-coordinate of the **centre** of the objects' bounding box
-- `<y>` = y-coordinate of the **centre** of the objects' bounding box
-- `<width>` = width of the bounding box
-- `<height>` = height of the bounding box
+	- `<class>` = integer representing the object class
+	- `<x>` = x-coordinate of the **centre** of the objects' bounding box
+	- `<y>` = y-coordinate of the **centre** of the objects' bounding box
+	- `<width>` = width of the bounding box
+	- `<height>` = height of the bounding box
 
  AlexeyAB's comment on [this Github issue](https://github.com/AlexeyAB/Yolo_mark/issues/60) is very useful in providing clarification on the annotation format.
 
